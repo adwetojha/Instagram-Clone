@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="<%= assetPath('css/home.css')%>">
+<section id="feed-posts">
+    
+        <div id="home-posts-container">
+        <div id="post-list-container">
+            <ul>
+                <% for(p of post){%>
+                    <%- include('_post') -%>
+                <%}%>
+            </ul>
+        </div>
+        </div>
+</section>
+
+<section id="aside">
+    <div class="inside-aside">
+        <% if(locals.user){%>
+            <div class="aside-container">
+                <div><img src="<%= user.avatar %>" alt="<%= user.name%>"></div>
+                <div class="user-name">
+                    <a href="/user/profile/<%=user.id %>"> <%= user.name %></a>
+                </div>
+            
+            </div>
+            <% }%>
+            <% if(locals.user){%>
+            <div class="users">
+                <h2>Followers</h2>
+            <% for(u of followers){ %>
+                <p class="follower">
+                    <a href="/user/profile/<%=u.from_user._id%>"><%=u.from_user.name%></a>
+                </p>
+                <%}%>
+            </div>
+            <%}%>
+            
+            <div class="users"> 
+                <h2>All users</h2>
+                <% for(u of all_users){ %>
+                    <p class="follower">
+                        <a href="/user/profile/<%=u._id%>"><%=u.name%></a>
+                    </p>
+                    <%}%>
+            </div>
+    </div>
+</section>
+<script src="<%=assetPath('js/toggle_likes.js')%>"></script>
+<script>
+    $('.toggle-like-button').each(function(){
+        let self=this;
+        let toggleLike=new ToggleLike(self);
+    });
+</script>
+<script src="<%=assetPath('js/toggle_follow.js')%>"></script>
+<script>
+    $('.toggle-follow-button').each(function(){
+        let self=this;
+        let toggleFollow=new ToggleFollow(self);
+    });
+</script>

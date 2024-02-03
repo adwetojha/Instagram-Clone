@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="<%= assetPath('css/_header.css')%>">
+<header id="layout-header">
+    <nav>
+        <div class="mini-logo">
+            <p>
+                <a href='/'>
+                Instagram
+                 </a>
+             </p>
+        </div>
+        <ul>
+            <% if(locals.user) {%>
+                <li id="user-class" class="list"><%= user.name %>&nbsp;<i class="fas fa-caret-down"></i>
+                    <div id="hide">
+                        <div class="hidden"><a href="/user/profile/<%=user.id %>"><i class="fas fa-user-circle"></i>&nbsp;Profile</a></div>
+                        <div class="hidden"><a href="/user/new-post"><i class="fas fa-th"></i>&nbsp;Create&nbsp;Post</a></div>
+                        <div class="hidden"><a href='/user/sign-out'><i class="fas fa-sign-out-alt"></i>&nbsp;SignOut</a></div>
+                    </div>
+                </li>
+                <li class="list">
+                    <a href="/chat/<%=user.id%>"><i class="far fa-comments"></i></a>
+                    
+                </li>
+                
+                <% }else{ %>
+                    <li class="list"><a href="/user/sign-in">SignIn</a></li>
+                    <li class="list"><a href="/user/sign-up">Sign Up</a></li>
+                    <% } %>
+        </ul>
+    </nav>
+</header>
+<script src="<%= assetPath('js/header.js')%>"></script>

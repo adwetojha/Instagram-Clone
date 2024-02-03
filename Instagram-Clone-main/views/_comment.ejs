@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="<%= assetPath('css/comment.css')%>">
+<li id="comment-<%= comment._id %>">
+        <div>
+            <img src="<%=comment.user.avatar%>" alt="<%=comment.user.name%>">&emsp;
+            <a class="name" href="/user/profile/<%=comment.user.id%>"><%= comment.user.name %></a>
+        </div>
+        <div class="comment-content"><%= comment.content %></div>
+        
+        <div class="comment-like">
+            <% if(locals.user){%>
+                <a class="toggle-like-button" data-likes="<%= comment.likes.length%>"href="/like/toggle/?id=<%=comment.id%>&type=Comment"><i class="far fa-heart red"></i>&nbsp;<%= comment.likes.length%>&nbsp;Likes</a>
+                <%}else{%>
+                    <%= comment.likes.length%>Likes
+                <%}%>
+            </div>
+        <%if(locals.user &&(locals.user.id==post.user.id || locals.user.id==comment.user.id)){%>
+            <div class="comment-like">
+                <a class="delete-comment-button" href="/comment/destroy/<%= comment.id %>"><i class="fas fa-trash"></i></a>
+            </div>
+            <% } %>   
+
+</li>

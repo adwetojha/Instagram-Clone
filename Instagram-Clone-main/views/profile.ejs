@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="<%=assetPath('css/profile.css')%>">
+
+
+<section>
+    <div class="user-details">
+    <div class="user-image">
+        <img src="<%= profile_user.avatar %>" alt="<%= profile_user.name %>" width="100">
+    </div>
+    <div class="details">
+        <div class="detail">
+            <div class="name"><%= profile_user.name %></div>
+            <%if(profile_user.id==user.id){%>
+        <div class="edit"> <a href="/user/edit-profile">Edit profile</a></div>
+        <%}else{%>
+            <button >
+                <% if(follow){%>
+                    <a class="toggle-follow-button" href="/follow/toggle/?fromuser=<%=user._id%>&touser=<%=profile_user.id%>">Unfollow</a>
+                    <%}else{%>
+                <a class="toggle-follow-button" href="/follow/toggle/?fromuser=<%=user._id%>&touser=<%=profile_user.id%>">Follow</a>
+                <%}%>
+            </button>
+            <%}%>
+        </div>
+        <div class="detail">
+            <div class="number"><b><%= post.length%></b> Posts</div>
+            <div class="follower" follows="<%=profile_user.followers.length%>"><b><%=profile_user.followers.length%></b> Followers</div>
+            <div class="number"><b><%=profile_user.following.length%></b> Following</div>
+        </div>
+        <div class="detail">
+            <div class="number"><%= profile_user.bio %></div>
+        </div>
+    </div>
+    </div>
+<br>
+<hr>
+
+<div id="post-list-container">
+    <ul>
+        <% for(p of post){%>
+            <%- include('_post') -%>
+        <%}%>
+    </ul>
+</div>
+</section>
+<script src="<%= assetPath('js/toggle_follow.js')%>"></script>
+<script>
+    $('.toggle-follow-button').each(function(){
+        let self=this;
+        let toggleFollow=new ToggleFollow(self);
+    });
+</script>

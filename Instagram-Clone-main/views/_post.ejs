@@ -1,0 +1,38 @@
+<li id="post-<%=post._id%>">
+    
+    <!-- showing the post -->
+    <div>
+        
+        <% if(value){%>
+        <div class="post-heading">
+            <div><img src="<%= p.user.avatar %>" alt="<%= p.user.name %>" width="100"></div>
+            <div class='user-name'><a href="/user/profile/<%=p.user.id%>"><%= p.user.name %></a></div>
+            <div class='info'><a href="/post/<%=p._id%>"><i class="fas fa-file-import"></i></a></div>
+        </div>
+        <%}%>
+    <div class="post-image"><img src="<%= p.path %>" alt="<%= p.user.name %>" width="100"></div>
+    <% if(value){%>
+        <% if(locals.user){%>
+            <a class="toggle-like-button" data-likes="<%= p.likes.length%>"href="/like/toggle/?id=<%=p._id%>&type=Post"> <i class="far fa-heart red"></i>&nbsp;<%= p.likes.length%>&nbsp;Likes</a>
+            <%}else{%>
+                <div class="toggle-like-button"><i class="far fa-heart red"></i>&nbsp;<%= p.likes.length%>&nbsp;Likes</div>
+            <%}%>
+    <div class="post-content"><div class="user-name"><a href="/user/profile/<%=p.user.id%>"><%= p.user.name %></div></a>&emsp;<div><%= p.content %></div></div>
+    <%}%>
+    
+    <% if(value){%>
+    <div class="post-comments">
+        <% if(locals.user){%>
+            <form id="post-<%= post._id %>-comments-form" action="/comment/create" method="POST">
+                <input type="text" name="content" placeholder="Add a comment">
+                <!-- important to recognise on which post the comment is added -->
+                <input type="hidden" name="post" value="<%= p._id%>">
+                <input type="submit" value="Post">
+            </form>
+            <%}%> 
+    </div>
+    <% }%>
+</div>
+</li>
+<br>
+<br>

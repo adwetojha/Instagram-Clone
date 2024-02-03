@@ -1,0 +1,156 @@
+[0mGET /user/sign-in [36m304[0m 16.125 ms - -[0m
+[0mGET /user/css/_header.css [33m404[0m 13.374 ms - 159[0m
+[0mGET /user/css/user_sign_in.css [33m404[0m 16.540 ms - 164[0m
+[0mGET /user/js/header.js [33m404[0m 22.384 ms - 156[0m
+[0mGET /user/css/_header.css [33m404[0m 2.825 ms - 159[0m
+[0mGET /user/js/header.js [33m404[0m 4.581 ms - 156[0m
+[0mGET /js/header.js [33m404[0m 4.203 ms - 151[0m
+[0mGET /js/toggle_likes.js [33m404[0m 4.805 ms - 157[0m
+[0mGET /user/sign-in [36m304[0m 4.099 ms - -[0m
+[0mGET /user/css/_header.css [33m404[0m 3.927 ms - 159[0m
+[0mGET /user/js/header.js [33m404[0m 5.390 ms - 156[0m
+[0mGET /user/css/user_sign_in.css [33m404[0m 8.378 ms - 164[0m
+[0mGET /user/js/header.js [33m404[0m 2.209 ms - 156[0m
+[0mPOST /user/create-session [36m302[0m 31.443 ms - 70[0m
+[0mGET /user/sign-in [32m200[0m 5.066 ms - 2937[0m
+[0mGET /user/css/_header.css [33m404[0m 5.055 ms - 159[0m
+[0mGET /user/css/user_sign_in.css [33m404[0m 4.413 ms - 164[0m
+[0mGET /user/js/header.js [33m404[0m 3.839 ms - 156[0m
+[0mGET /user/js/header.js [33m404[0m 1.975 ms - 156[0m
+::1 - - [22/Dec/2021:18:31:15 +0000] "GET /user/sign-in HTTP/1.1" 200 2720 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:10 +0000] "GET / HTTP/1.1" 200 4224 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:10 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:10 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:10 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:10 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:16 +0000] "GET /user/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:18 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:18 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:18 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:18 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:19 +0000] "GET /user/profile/61c36d3ff03dda1844fe06bb HTTP/1.1" 302 70 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:19 +0000] "GET /user/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:28 +0000] "POST /user/create-session HTTP/1.1" 302 46 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:29 +0000] "GET / HTTP/1.1" 200 6094 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:29 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:29 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:29 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:35 +0000] "GET /chat/61c36d3ff03dda1844fe06bb HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:36 +0000] "GET /chat/?from=61c36d3ff03dda1844fe06bb&to=61c36cf5f03dda1844fe06ba HTTP/1.1" 304 - "http://localhost:8000/chat/61c36d3ff03dda1844fe06bb" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:46 +0000] "GET /user/sign-out HTTP/1.1" 302 46 "http://localhost:8000/chat/?from=61c36d3ff03dda1844fe06bb&to=61c36cf5f03dda1844fe06ba" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:46 +0000] "GET / HTTP/1.1" 200 4494 "http://localhost:8000/chat/?from=61c36d3ff03dda1844fe06bb&to=61c36cf5f03dda1844fe06ba" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:46 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:46 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:46 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:46 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:50 +0000] "GET /user/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:59 +0000] "POST /user/create-session HTTP/1.1" 302 46 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:59 +0000] "GET / HTTP/1.1" 200 6253 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:59 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:59 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:59 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:32:59 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:33:04 +0000] "GET /chat/61c36cf5f03dda1844fe06ba HTTP/1.1" 200 3310 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:33:05 +0000] "GET /chat/?from=61c36cf5f03dda1844fe06ba&to=61c36d3ff03dda1844fe06bb HTTP/1.1" 200 3589 "http://localhost:8000/chat/61c36cf5f03dda1844fe06ba" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:33:09 +0000] "GET / HTTP/1.1" 200 5984 "http://localhost:8000/chat/?from=61c36cf5f03dda1844fe06ba&to=61c36d3ff03dda1844fe06bb" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:33:09 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:33:09 +0000] "GET /js/toggle_follow.js HTTP/1.1" 404 158 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:33:22 +0000] "GET /js/toggle_likes.js HTTP/1.1" 404 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:35:04 +0000] "GET / HTTP/1.1" 200 6006 "http://localhost:8000/chat/?from=61c36cf5f03dda1844fe06ba&to=61c36d3ff03dda1844fe06bb" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:35:10 +0000] "POST /like/toggle/?id=61c36d96f03dda1844fe06bf&type=Post HTTP/1.1" 200 58 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [22/Dec/2021:18:35:12 +0000] "POST /like/toggle/?id=61c36d96f03dda1844fe06bf&type=Post HTTP/1.1" 200 57 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+[0mGET / [32m200[0m 34.445 ms - 4198[0m
+[0mGET /js/header.js [33m404[0m 15.561 ms - 151[0m
+[0mGET /js/toggle_likes.js [33m404[0m 6.617 ms - 157[0m
+[0mGET /js/toggle_follow.js [33m404[0m 10.227 ms - 158[0m
+[0mGET /js/header.js [33m404[0m 7.149 ms - 151[0m
+[0mGET /js/toggle_likes.js [33m404[0m 3.059 ms - 157[0m
+[0mGET /js/toggle_follow.js [33m404[0m 1.777 ms - 158[0m
+[0mGET / [36m304[0m 56.186 ms - -[0m
+[0mGET /js/header.js [33m404[0m 7.532 ms - 151[0m
+[0mGET /js/toggle_likes.js [33m404[0m 3.369 ms - 157[0m
+[0mGET /js/toggle_follow.js [33m404[0m 7.160 ms - 158[0m
+[0mGET /js/header.js [33m404[0m 2.238 ms - 151[0m
+[0mGET /js/toggle_likes.js [33m404[0m 3.331 ms - 157[0m
+[0mGET /js/toggle_follow.js [33m404[0m 2.324 ms - 158[0m
+[0mGET / [32m200[0m 40.361 ms - 4204[0m
+[0mGET /js/header.js [33m404[0m 10.473 ms - 151[0m
+[0mGET /js/toggle_follow.js [33m404[0m 9.327 ms - 158[0m
+[0mGET /js/toggle_likes.js [33m404[0m 27.016 ms - 157[0m
+[0mGET /js/header.js [33m404[0m 10.132 ms - 151[0m
+[0mGET /js/toggle_likes.js [33m404[0m 3.948 ms - 157[0m
+[0mGET /js/toggle_follow.js [33m404[0m 4.472 ms - 158[0m
+[0mGET / [36m304[0m 47.154 ms - -[0m
+[0mGET / [32m200[0m 44.375 ms - 4198[0m
+[0mGET / [36m304[0m 40.336 ms - -[0m
+::1 - - [22/Dec/2021:18:40:07 +0000] "GET / HTTP/1.1" 200 4246 "http://localhost:8000/chat/?from=61c36cf5f03dda1844fe06ba&to=61c36d3ff03dda1844fe06bb" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:40:09 +0000] "GET /post/61c36d96f03dda1844fe06bf HTTP/1.1" 302 70 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:40:09 +0000] "GET /user/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:40:17 +0000] "POST /user/create-session HTTP/1.1" 302 46 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:40:17 +0000] "GET / HTTP/1.1" 200 6116 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:40:22 +0000] "GET /post/61c36d96f03dda1844fe06bf HTTP/1.1" 200 4549 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:40:24 +0000] "GET /post/destroy/61c36d96f03dda1844fe06bf HTTP/1.1" 302 146 "http://localhost:8000/post/61c36d96f03dda1844fe06bf" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:40:24 +0000] "GET /post/61c36d96f03dda1844fe06bf HTTP/1.1" 500 2141 "http://localhost:8000/post/61c36d96f03dda1844fe06bf" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:41:12 +0000] "GET / HTTP/1.1" 200 4302 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:41:18 +0000] "GET /user/new-post HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:41:30 +0000] "POST /post/create HTTP/1.1" 302 46 "http://localhost:8000/user/new-post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:41:30 +0000] "GET / HTTP/1.1" 200 6111 "http://localhost:8000/user/new-post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:41:32 +0000] "GET /post/61c3715a47545f329c055c9f HTTP/1.1" 200 4549 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:41:35 +0000] "GET /post/destroy/61c3715a47545f329c055c9f HTTP/1.1" 302 146 "http://localhost:8000/post/61c3715a47545f329c055c9f" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:41:35 +0000] "GET /post/61c3715a47545f329c055c9f HTTP/1.1" 500 2195 "http://localhost:8000/post/61c3715a47545f329c055c9f" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:42:46 +0000] "GET /post/61c3715a47545f329c055c9f HTTP/1.1" 500 2141 "http://localhost:8000/post/61c3715a47545f329c055c9f" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:42:50 +0000] "GET / HTTP/1.1" 200 4302 "http://localhost:8000/user/new-post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::ffff:127.0.0.1 - - [22/Dec/2021:18:42:54 +0000] "GET /user/new-post HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:43:04 +0000] "POST /post/create HTTP/1.1" 302 46 "http://localhost:8000/user/new-post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:43:04 +0000] "GET / HTTP/1.1" 200 6111 "http://localhost:8000/user/new-post" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:43:06 +0000] "GET /post/61c371b8a917c21210f445b0 HTTP/1.1" 200 4549 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:43:09 +0000] "GET /post/destroy/61c371b8a917c21210f445b0 HTTP/1.1" 302 46 "http://localhost:8000/post/61c371b8a917c21210f445b0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [22/Dec/2021:18:43:09 +0000] "GET / HTTP/1.1" 200 4574 "http://localhost:8000/post/61c371b8a917c21210f445b0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+[0mGET / [32m200[0m 250.721 ms - 4198[0m
+[0mGET /user/profile/612cbbb203253d1734f9d942 [36m302[0m 18.093 ms - 70[0m
+[0mGET /user/sign-in [32m200[0m 36.567 ms - 2672[0m
+[0mGET /user/css/_header.css [33m404[0m 5.467 ms - 159[0m
+[0mGET /user/css/user_sign_in.css [33m404[0m 8.630 ms - 164[0m
+[0mGET /user/js/header.js [33m404[0m 9.971 ms - 156[0m
+[0mGET /user/sign-in [36m304[0m 5.245 ms - -[0m
+[0mGET /user/css/_header.css [33m404[0m 11.791 ms - 159[0m
+[0mGET /user/css/user_sign_in.css [33m404[0m 12.680 ms - 164[0m
+[0mGET /user/js/header.js [33m404[0m 8.495 ms - 156[0m
+[0mGET / [36m304[0m 16.937 ms - -[0m
+[0mGET / [36m304[0m 13.281 ms - -[0m
+[0mGET / [36m304[0m 17.072 ms - -[0m
+[0mGET / [36m304[0m 12.462 ms - -[0m
+[0mGET / [36m304[0m 10.671 ms - -[0m
+[0mGET / [36m304[0m 10.425 ms - -[0m
+[0mGET / [36m304[0m 8.095 ms - -[0m
+[0mGET / [36m304[0m 12.509 ms - -[0m
+[0mGET /user/sign-in [36m304[0m 7.106 ms - -[0m
+[0mGET /user/css/_header.css [33m404[0m 8.647 ms - 159[0m
+[0mGET /user/css/user_sign_in.css [33m404[0m 10.059 ms - 164[0m
+[0mGET /user/js/header.js [33m404[0m 12.469 ms - 156[0m
+[0mGET /user/css/_header.css [33m404[0m 1.899 ms - 159[0m
+[0mGET /user/css/user_sign_in.css [33m404[0m 2.604 ms - 164[0m
+[0mGET /user/js/header.js [33m404[0m 1.779 ms - 156[0m
+[0mGET /user/css/_header.css [33m404[0m 4.774 ms - 159[0m
+[0mGET / [36m304[0m 10.928 ms - -[0m
+[0mGET /user/sign-up [32m200[0m 92.790 ms - 2577[0m
+[0mGET /user/css/user-sign-up.css [33m404[0m 9.388 ms - 164[0m
+[0mGET /user/css/_header.css [33m404[0m 9.010 ms - 159[0m
+[0mGET /user/js/header.js [33m404[0m 9.419 ms - 156[0m
+[0mGET /user/css/user-sign-up.css [33m404[0m 1.668 ms - 164[0m
+[0mGET /user/css/_header.css [33m404[0m 1.800 ms - 159[0m
+[0mGET /user/js/header.js [33m404[0m 1.770 ms - 156[0m
+[0mGET /sourceMap/chrome/advanced_protection_signal.map [33m404[0m 2.005 ms - 186[0m
+[0mGET /sourceMap/chrome/interactive_balloon.map [33m404[0m 2.675 ms - 179[0m
+[0mGET / [36m304[0m 13.759 ms - -[0m
+::1 - - [24/Dec/2021:14:08:52 +0000] "GET / HTTP/1.1" 200 3186 "http://localhost:8000/user/sign-up" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:08:55 +0000] "GET /user/profile/61c36cf5f03dda1844fe06ba HTTP/1.1" 302 70 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:08:55 +0000] "GET /user/sign-in HTTP/1.1" 200 2720 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:09:04 +0000] "POST /user/create-session HTTP/1.1" 302 70 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:09:04 +0000] "GET /user/sign-in HTTP/1.1" 200 2985 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:09:13 +0000] "POST /user/create-session HTTP/1.1" 302 70 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:09:13 +0000] "GET /user/sign-in HTTP/1.1" 304 - "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:09:59 +0000] "POST /user/create-session HTTP/1.1" 302 46 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:09:59 +0000] "GET / HTTP/1.1" 200 4730 "http://localhost:8000/user/sign-in" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:10:02 +0000] "GET /chat/61c36cf5f03dda1844fe06ba HTTP/1.1" 200 3310 "http://localhost:8000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+::1 - - [24/Dec/2021:14:10:04 +0000] "GET /chat/?from=61c36cf5f03dda1844fe06ba&to=61c36d3ff03dda1844fe06bb HTTP/1.1" 200 3589 "http://localhost:8000/chat/61c36cf5f03dda1844fe06ba" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
